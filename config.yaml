@@ -1,7 +1,6 @@
 jobs:
-- name: idempotent-task
+- name: test-git
   plan:
-  - get: counter
   - task: add-one
     config:
       platform: linux
