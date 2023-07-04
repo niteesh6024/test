@@ -1,5 +1,5 @@
 jobs:
-- name: test-git
+- name: test-git-job
   plan:
   - task: add-one
     config:
